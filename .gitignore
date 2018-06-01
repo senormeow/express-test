@@ -1,0 +1,49 @@
+# Compiled Source #
+###################
+*.pyc
+
+# User define database settings #
+#################################
+database_settings.py
+
+# User local settings #
+#################################
+local_settings.json
+
+# Logs and Databases #
+######################
+*.db
+*.db-journal
+*.log
+
+#CSV
+*.csv
+#CACHE
+.cache
+
+#IDE
+.idea
+.project
+.pydevproject
+# Editor backup files #
+#######################
+
+.*.swp
+.*.swo
+*~
+hardcopy.*
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+screenlog.*
+
+/node_modules/*
+/dist/*
